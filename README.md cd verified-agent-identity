@@ -9,6 +9,8 @@
 <!---
 Olamipoalameen/Olamipoalameen is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
---->
-
+--->cd verified-agent-identity
 npm install shell-quote @iden3/js-iden3-auth @0xpolygonid/js-sdk ethers uuid cross-fetch
+cd scripts
+node createNewEthereumIdentity.js
+node manualLinkHumanToAgent.js --challenge '{"name":"CryptoTelugu","description":"CryptoTelugu Agent"}'
